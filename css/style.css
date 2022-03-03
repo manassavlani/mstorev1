@@ -1,0 +1,113 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+#install-green {
+    background-color: lime;
+    border: 1px solid black;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    font-family: cursive;
+    line-height: 1px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    height: 1px;
+}
+
+#install-green:hover {
+    background-color: green;
+    color:black
+}
+
+p{
+    font-family: cursive;
+}
+
+.box{
+    background-image: radial-gradient(grey, rgb(80, 77, 77));
+    height: 30px;
+    width: 170px;
+
+}
+
+.tbtn {
+    background-color: #0a92ff;
+    border: none;
+    color: white;
+    padding: 0 0 0 0;
+    margin: 1px 1px 1px 1px;
+    height: 130px;
+    width: 110px;
+    text-align: center;
+    font-family: cursive;
+    line-height: 1px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin-left: 5px;
+    margin-top: 15px; */
+    cursor: pointer;
+    /* height: 1px; */
+    position: fixed;
+    right: 1100px;
+}
+
+.tbtn:hover {
+    background-color: blue;
+}
+
+#id{
+   display: flex;
+   justify-content: center; 
+}
+
+#imgimg{
+    background-color: #dddddd;
+}
+
+#LDMode1 {
+    position: fixed;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    /* background: url('../media/light.png'); */
+    cursor: pointer;
+}
+
+#LDMode2 {
+    position: fixed;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.dark-mode {
+    background-color: #3d3d3d;
+}
+
+#glow {
+    font-size: 80px;
+    color: #ddd;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #ddd, 0 0 20px #ddd, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #ddd, 0 0 30px #ddd, 0 0 40px lime, 0 0 50px lime, 0 0 60px lime, 0 0 70px lime, 0 0 80px lime;
+    }
+}
